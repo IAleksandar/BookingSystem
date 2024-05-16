@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="7.5.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\BookingSystem.DataAccess\BookingSystem.DataAccess.csproj" />
+    <ProjectReference Include="..\BookingSystem.Dtos\BookingSystem.Dtos.csproj" />
+    <ProjectReference Include="..\BookingSystem.Mappers\BookingSystem.Mappers.csproj" />
+    <ProjectReference Include="..\BookingSystem.Utils\BookingSystem.Utils.csproj" />
+  </ItemGroup>
+
+</Project>
